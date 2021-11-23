@@ -1,0 +1,124 @@
+.comment{
+background-color: $transparentblue;
+  height: 550px;
+  &_title{
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  > .slider{
+    display: flex;
+    justify-content: space-evenly;
+
+    > .slider_feedback{
+      display: flex;
+      margin : 80px;
+      max-width: 700px;
+
+      > .slider_feedback__profil{
+        display: flex;
+        >img{
+          width: auto;
+          height: 100px;
+        }
+      }
+      >.slider_feedback__rating{
+
+        > .slider_feedback__text{
+          padding-top: 20px;
+
+          >.quote{
+            font-style: italic;
+          }
+          >.autor{
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  >.slider_buttons{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    >a{
+      height: 12px;
+      width: 12px;
+      background-color: $lightblue;
+      border-radius: 50%;
+      opacity: 0.6;
+      margin: 10px;
+    }
+    >.active {
+      height: 20px;
+      width: 20px;
+      opacity: 1;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .comment{
+    background-color: $transparentblue;
+    height: auto;
+    &_title{
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    > .slider{
+      display: block;
+      margin: auto;
+      > .slider_feedback{
+        display: flex;
+        margin : 80px;
+        max-width: 700px;
+
+        > .slider_feedback__profil{
+          display: flex;
+          >img{
+            width: auto;
+            height: 100px;
+          }
+        }
+        >.slider_feedback__rating{
+
+          > .slider_feedback__text{
+            padding-top: 20px;
+
+            >.quote{
+              font-style: italic;
+            }
+            >.autor{
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+
+    >.slider_buttons{
+      display: flex;
+      height: 30px;
+      justify-content: center;
+      >a{
+        height: 12px;
+        width: 12px;
+        background-color: $lightblue;
+        border-radius: 50%;
+        opacity: 0.6;
+        margin: 10px;
+      }
+      >.active {
+        height: 20px;
+        width: 20px;
+        opacity: 1;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+    }
+  }
+
+}

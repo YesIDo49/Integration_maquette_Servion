@@ -1,0 +1,91 @@
+.button{
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.button--check{
+  background-color: $lightblue;
+  color: white;
+  margin-left: 25px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.button--check:hover{
+  background-color: white;
+  color: $lightblue;
+}
+
+.button--login{
+  background-color: white;
+  color: $lightblue;
+  transition: 0.3s;
+  > i{
+    margin-left: 10px;
+    color: $lightblue;
+  }
+}
+
+.button--login:hover{
+  background-color: $lightblue;
+  color: white;
+
+  > i{
+    color: white;
+  }
+}
+
+.button--light{
+  background-color: white;
+  color: $lightblue;
+  transition: 0.3s;
+}
+
+.button--light:hover{
+  background-color: $darkblue;
+  color: white;
+}
+
+.button--dark{
+  background-color: white;
+  color: $lightblue;
+  transition: 0.3s;
+}
+
+.button--dark:hover{
+  background-color: $lightblue;
+  color: white;
+}
+
+.button--blue{
+  background-color: $lightblue;
+  color: white;
+  margin-left: 25px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.button--blue:hover{
+  background-color: $darkblue;
+  color: $lightblue;
+}
+
+.button--gray{
+  background-color: $lightgray ;
+  color: $lightblue;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.button--gray:hover{
+  background-color: $lightblue;
+  color: white;
+}
+
+
+
+
+

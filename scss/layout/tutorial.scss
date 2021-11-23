@@ -1,0 +1,169 @@
+.tutorial{
+  margin : 80px 0;
+  >.tutorial_title{
+    text-align: center;
+  }
+
+  > .learn{
+    display: flex;
+    justify-content: space-evenly;
+
+    >.learn_box{
+      color: white;
+      margin: 25px;
+      border-radius: 5px;
+      height: 330px;
+      padding: 50px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+      > h4{
+        padding-bottom: 25px;
+      }
+
+      > p{
+        padding-bottom: 20px;
+      }
+
+      > a{
+        float: right;
+      }
+    }
+
+    >.light{
+      background-color: $lightblue;
+      position: relative;
+
+      > .box_img{
+        position: absolute;
+        right: 15px;
+        top: 15px;
+      }
+
+        >.box_icon{
+          background-color: $darkblue;
+          width: 77px;
+          margin-bottom: 45px;
+          border-radius: 5px;
+          padding: 10px 0;
+          > img{
+            display: flex;
+            margin: auto;
+          }
+
+          }
+        }
+
+
+    >.dark{
+      background-color: $darkblue;
+      position: relative;
+
+      > .box_img{
+        position: absolute;
+        right: 15px;
+        top: 15px;
+
+      }
+
+      >.box_icon{
+        background-color: $lightblue;
+        width: 77px;
+        margin-bottom: 45px;
+        border-radius: 5px;
+        padding: 10px 0;
+        > img{
+          display: flex;
+          margin: auto;
+        }
+
+      }
+    }
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+  .tutorial{
+    margin : 80px 0;
+    >.tutorial_title{
+      text-align: center;
+    }
+
+    > .learn{
+      display: block;
+
+      >.learn_box{
+        color: white;
+        margin: 25px;
+        border-radius: 5px;
+        height: 330px;
+        padding: 50px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+        > h4{
+          padding-bottom: 25px;
+        }
+
+        > p{
+          padding-bottom: 20px;
+        }
+
+        > a{
+          float: right;
+        }
+      }
+
+      >.light{
+        background-color: $lightblue;
+        position: relative;
+
+        > .box_img{
+          position: absolute;
+          right: 15px;
+          top: 15px;
+        }
+
+        >.box_icon{
+          background-color: $darkblue;
+          width: 77px;
+          margin-bottom: 45px;
+          border-radius: 5px;
+          padding: 10px 0;
+          > img{
+            display: flex;
+            margin: auto;
+          }
+
+        }
+      }
+
+
+      >.dark{
+        background-color: $darkblue;
+        position: relative;
+
+        > .box_img{
+          position: absolute;
+          right: 15px;
+          top: 15px;
+
+        }
+
+        >.box_icon{
+          background-color: $lightblue;
+          width: 77px;
+          margin-bottom: 45px;
+          border-radius: 5px;
+          padding: 10px 0;
+          > img{
+            display: flex;
+            margin: auto;
+          }
+
+        }
+      }
+    }
+  }
+}

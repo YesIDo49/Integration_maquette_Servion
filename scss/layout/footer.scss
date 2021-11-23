@@ -1,0 +1,128 @@
+.footer{
+  background-image: url("./img/background/footer_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+
+  > div{
+    display: flex;
+    color: white;
+    padding-top: 200px;
+    justify-content: space-around;
+    align-content: end;
+
+
+    > .footer_item{
+      > h4{
+        margin-bottom: 10px;
+      }
+
+      > p{
+        padding: 5px 0;
+      }
+    }
+    > .footer_item__payment{
+      justify-content: space-between;
+      > img{
+        padding-top: 15px;
+      }
+    }
+  }
+
+  > .footer_contact{
+    >.footer_adress{
+        margin-right:  350px;
+      > .footer_adress__logo{
+        margin-bottom: 10px;
+      }
+    }
+
+    >.footer_socials{
+      margin-left: 350px;
+
+      > .footer_socials__icons{
+        display: flex;
+        justify-content: right;
+        margin-bottom: 15px;
+        >img{
+          padding: 0 5px;
+        }
+      }
+
+      > a{
+        color: white;
+      }
+      >span{
+        color: $lightblue;
+        margin : 0 10px;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 768px)
+{
+  .footer{
+    background-image: url("./img/background/footer_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+
+    > div{
+      display: block;
+      color: white;
+      padding: 10px 0;
+      justify-content: space-evenly;
+
+      > .footer_item{
+        margin: 20px 0;
+        > h4{
+          margin-bottom: 10px;
+        }
+
+        > p{
+          padding: 5px 0;
+        }
+      }
+      > .footer_item__payment{
+        justify-content: space-between;
+        > img{
+          padding-top: 15px;
+        }
+      }
+    }
+
+    > .footer_contact{
+      >.footer_adress{
+        margin-right:  0;
+        > .footer_adress__logo{
+          margin-bottom: 10px;
+        }
+      }
+
+      >.footer_socials{
+        margin-left: 0;
+
+        > .footer_socials__icons{
+          display: flex;
+          margin-top: 30px;
+          justify-content: left;
+          margin-bottom: 15px;
+          >img{
+            padding: 0 5px;
+          }
+        }
+
+        > a{
+          color: white;
+        }
+        >span{
+          color: $lightblue;
+          margin : 0 10px;
+        }
+      }
+    }
+
+  }
+}

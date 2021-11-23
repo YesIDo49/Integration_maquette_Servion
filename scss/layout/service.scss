@@ -1,0 +1,79 @@
+.service{
+  margin : 80px 0;
+
+  > div{
+    > .service_title{
+      text-align: center;
+      margin : 80px 0;
+    }
+
+    > .perks{
+      display: flex;
+      > .perks_container{
+        max-width: 700px;
+        margin-left: 60px;
+        margin-right: 100px;
+        > .perks_list{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 30px;
+
+          >.perks_list__img{
+            margin-right: 30px;
+          }
+
+          > .perks_list__content{
+            > h4{
+              padding-bottom: 20px;
+            }
+        }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .service{
+    margin : 80px 0;
+
+    > div{
+      > .service_title{
+        text-align: center;
+        margin : 80px 0;
+      }
+
+      > .perks{
+        display: flex;
+        > .perks_container{
+          max-width: 700px;
+          margin-left: 60px;
+          margin-right: 100px;
+          > .perks_list{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+
+            >.perks_list__img{
+              display: block;
+            }
+
+            > .perks_list__content{
+              > h4{
+                padding-bottom: 20px;
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+  .perks_image{
+    display: none;
+  }
+}
+
